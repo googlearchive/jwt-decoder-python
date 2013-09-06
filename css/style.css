@@ -1,0 +1,36 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.error {
+  color: #ff0000;
+  display: none;
+}
+
+.result {
+  display: none;
+  margin-top: 15px;
+  max-width: inherit;
+}
+
+.subheading {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.subresult {
+  font-family: courier;
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+textarea {
+  display: block;
+}
