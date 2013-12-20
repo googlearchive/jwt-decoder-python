@@ -53,18 +53,6 @@ function processJWT() {
  * Init method.
  */ 
 function init() {
-  var jwtToken = [
-    'eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJhdWQiOiAiR29vZ2xlIiwgImlzc' +
-    'yI6ICIxMDg3MzY2MDM1NDYyMDA5NDcxNiIsICJyZXF1ZXN0IjogeyJwcmljZSI6ICI5Ljk' +
-    '5IiwgImN1cnJlbmN5Q29kZSI6ICJVU0QiLCAic2VsbGVyRGF0YSI6ICIrZ29sZCwgK25vL' +
-    '2NvdXBvbi9kaXNjb3VudCIsICJuYW1lIjogIlZpcnR1YWwgR29sZCBNZWRhbCIsICJkZXN' +
-    'jcmlwdGlvbiI6ICJBIHZpcnR1YWwgZ29sZCBtZWRhbCBmcm9tIHRoZSAyMDEwIG9seW1wa' +
-    'WMgZ2FtZXMgZm9yIG1lbidzIGZyZWVzdHlsZSBza2lpbmcuIn0sICJleHAiOiAxMzEyMjM' +
-    '5OTY1LCAiaWF0IjogMTMxMjIzOTM2NSwgInR5cCI6ICJnb29nbGUvcGF5bWVudHMvaW5hc' +
-    'HAvaXRlbS92MSJ9.JTWbPw4_ujX9-VN5pw13Bs27k0YUwhDFY_3TaBc2LEM'
-  ].join();
-  
-  $('#jwt-input').val(jwtToken);
   
   $('#jwt-input').focus(function() {
     var $this = $(this);
