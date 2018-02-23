@@ -1,5 +1,7 @@
-Python application which decodes into JSON  Copyright (C) 2013 Google Inc.
+# Project status
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
 
+This project is no longer actively maintained, and remains here as an archive of this work.
 jwt-decoder-python
 ================================
 
